@@ -1,0 +1,76 @@
+#table{
+    width:90%;
+    margin-top: 40px;
+    border-collapse: collapse;
+    margin-left: 55px;
+
+}
+#body{
+    background-color: #0d0c1c;
+}
+td{
+    text-align: center;
+    color:#fff;
+    height: 55px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+th{
+    background-color: #fff756;
+    color:#0d0c1c;
+    font-size: 35px;
+    height: 60px;
+}
+a:hover{
+    background-color: #b3e5fc;
+    color:#0d0c1c;
+    font-size: 25px;
+}
+a{
+    background-color: #0d0c1c;
+    color:#fff;
+}
+
+
+
+/* styles.css */
+
+/* Optional: Customize the appearance of the checkboxes */
+input[type="checkbox"] {
+    /* Hide the default checkbox appearance */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    -ms-appearance: none;
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #333;
+    border-radius: 4px;
+    outline: none;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+  
+  /* Optional: Customize the appearance of checked checkboxes */
+  input[type="checkbox"]:checked {
+    background-color: #fff756; /* Change this to your preferred color */
+    border-color: #fff756; /* Change this to your preferred color */
+  }
+  
+  /* Optional: Customize the appearance of the label text */
+  label {
+    font-size: 28px;
+    margin-bottom: 10px;
+    display: block;
+  }
+  #p{
+    
+    font-size: 28px;
+    color: #fff;
+  }
+  #a{
+    font-size: 28px;
+    color: #fff;
+  }
