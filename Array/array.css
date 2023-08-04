@@ -74,3 +74,22 @@ input[type="checkbox"] {
     font-size: 28px;
     color: #fff;
   }
+  #searchInput {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 70%;
+    width: 30%;
+    box-sizing: border-box;
+  }
+  
+  /* Optional: Add styles for focused and hovered state */
+  #searchInput:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 18px rgba(0, 123, 255, 0.6);
+  }
+  
+  #searchInput:hover {
+    border-color: #999;
+  }

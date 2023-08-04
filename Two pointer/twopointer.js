@@ -42,4 +42,18 @@ document.addEventListener("DOMContentLoaded", function() {
   
   // Initial count update on page load from local storage
   getCountFromLocalStorage();
-  
+  document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.getElementById('searchInput');
+    const tableData = document.getElementById('table');
+    const tableRows = tableData.getElementsByTagName('tr');
+
+    searchInput.addEventListener('keyup', function() {
+        const searchTerm = searchInput.value.toLowerCase();
+
+        for (let i = 0; i < tableRows.length; i++) {
+            const rowData = tableRows[i].textContent.toLowerCase();
+            const display = rowData.indexOf(searchTerm) > -1 ? 'table-row' : 'none';
+            tableRows[i].style.display = display;
+        }
+    });
+});
